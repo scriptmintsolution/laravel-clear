@@ -1,0 +1,40 @@
+{
+    "name": "mints/laravel-clear",
+    "description": "Clear laravel application cache, config, logs, session",
+    "keywords": [
+        "scriptmint",
+        "scriptmint-solution",
+        "clear",
+        "laravel-clear"
+    ],
+    "homepage": "https://github.com/scriptmintsolution/laravel-clear",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ScriptMint Solution",
+            "email": "hello@scriptmintsolution.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mints\\Clear\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mints\\Clear\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "orchestra/testbench": "^6.20"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mints\\Clear\\ClearServiceProvider"
+            ]
+        }
+    }
+}
