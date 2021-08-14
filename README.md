@@ -7,7 +7,7 @@ Clear laravel application cache, config, logs, session
 Require the package using composer:
 
 ```bash
-composer require mint/laravel-clear
+composer require mints/laravel-clear
 ```
 
 ## Usage
